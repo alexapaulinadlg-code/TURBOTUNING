@@ -2,26 +2,114 @@
 <html>
 <head>
 <title>Turbo Tuning</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-color:#0f0f0f;
+color:white;
+margin:0;
+}
+
+header{
+background:#111;
+padding:20px;
+text-align:center;
+font-size:30px;
+color:#00ff9d;
+}
+
+.catalogo{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:20px;
+}
+
+.producto{
+background:#1a1a1a;
+border-radius:10px;
+padding:15px;
+margin:15px;
+width:250px;
+text-align:center;
+box-shadow:0px 0px 10px rgba(0,0,0,0.6);
+}
+
+.producto img{
+width:100%;
+border-radius:8px;
+}
+
+.boton{
+background:#00ff9d;
+color:black;
+padding:10px 15px;
+border-radius:5px;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+font-weight:bold;
+}
+
+.boton:hover{
+background:#00cc7a;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
+box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Turbo Tuning</h1>
-<p>Venta de filtros, intakes y válvulas automotrices</p>
-<h2>Catálogo</h2>
-<h2>Catálogo</h2>
+<header>
+🚗 Turbo Tuning
+<br>
+Venta de filtros, intakes y válvulas automotrices
+</header>
 
-<h3>Filtro de alto flujo</h3>
-<img src="filtro.jpg" width="300">
+<section class="catalogo">
 
+<div class="producto">
+<img src="RacingLine.png">
+<h3>Filtro de Alto Flujo</h3>
+<p>Mejora el rendimiento del motor.</p>
+<a class="boton" href="https://wa.me/521XXXXXXXXXX">Comprar por WhatsApp</a>
+</div>
+
+<div class="producto">
+<img src="intake.jpg">
 <h3>Cold Air Intake</h3>
-<img src="intake.jpg" width="300">
+<p>Mayor entrada de aire para más potencia.</p>
+<a class="boton" href="https://wa.me/521XXXXXXXXXX">Comprar por WhatsApp</a>
+</div>
 
-<h3>Válvula de descarga</h3>
-<img src="valvula.jpg" width="300">
-<p>Contáctanos por WhatsApp:</p>
+<div class="producto">
+<img src="valvula.jpg">
+<h3>Válvula de Descarga</h3>
+<p>Sonido deportivo y mejor respuesta.</p>
+<a class="boton" href="https://wa.me/524491232312">Comprar por WhatsApp</a>
+</div>
 
-<a href="https://wa.me/524491232312">Enviar mensaje por WhatsApp</a>
+</section>
+
+<a class="whatsapp" href="https://wa.me/524491232312">
+💬 WhatsApp
+</a>
 
 </body>
 </html>
